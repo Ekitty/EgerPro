@@ -96,3 +96,4 @@ var game;
     game.MapMediator = MapMediator;
     __reflect(MapMediator.prototype, "game.MapMediator");
 })(game || (game = {}));
+//# sourceMappingURL=MapMediator.js.map

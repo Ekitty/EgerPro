@@ -17,3 +17,4 @@ var SceneNotify = (function () {
     return SceneNotify;
 }());
 __reflect(SceneNotify.prototype, "SceneNotify");
+//# sourceMappingURL=SceneNotify.js.map

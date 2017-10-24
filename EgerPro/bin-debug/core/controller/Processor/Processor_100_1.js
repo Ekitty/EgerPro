@@ -45,3 +45,4 @@ var game;
     game.Processor_100_1 = Processor_100_1;
     __reflect(Processor_100_1.prototype, "game.Processor_100_1", ["puremvc.ICommand", "puremvc.INotifier"]);
 })(game || (game = {}));
+//# sourceMappingURL=Processor_100_1.js.map

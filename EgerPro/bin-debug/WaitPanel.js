@@ -51,3 +51,4 @@ var WaitPanel = (function (_super) {
     return WaitPanel;
 }(egret.Sprite));
 __reflect(WaitPanel.prototype, "WaitPanel");
+//# sourceMappingURL=WaitPanel.js.map

@@ -60,3 +60,4 @@ var game;
     game.SceneManager = SceneManager;
     __reflect(SceneManager.prototype, "game.SceneManager", ["puremvc.ICommand", "puremvc.INotifier"]);
 })(game || (game = {}));
+//# sourceMappingURL=SceneManager.js.map

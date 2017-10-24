@@ -36,3 +36,4 @@ var game;
     game.QianghuaPanel = QianghuaPanel;
     __reflect(QianghuaPanel.prototype, "game.QianghuaPanel");
 })(game || (game = {}));
+//# sourceMappingURL=QianghuaPanel.js.map

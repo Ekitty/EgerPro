@@ -60,3 +60,4 @@ var game;
     game.MainManager = MainManager;
     __reflect(MainManager.prototype, "game.MainManager", ["puremvc.ICommand", "puremvc.INotifier"]);
 })(game || (game = {}));
+//# sourceMappingURL=MainManager.js.map

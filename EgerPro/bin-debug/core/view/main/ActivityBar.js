@@ -26,3 +26,4 @@ var game;
     game.ActivityBar = ActivityBar;
     __reflect(ActivityBar.prototype, "game.ActivityBar");
 })(game || (game = {}));
+//# sourceMappingURL=ActivityBar.js.map

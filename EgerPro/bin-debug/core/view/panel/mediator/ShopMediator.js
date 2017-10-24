@@ -159,3 +159,4 @@ var game;
     game.ShopMediator = ShopMediator;
     __reflect(ShopMediator.prototype, "game.ShopMediator");
 })(game || (game = {}));
+//# sourceMappingURL=ShopMediator.js.map

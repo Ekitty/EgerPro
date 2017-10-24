@@ -36,3 +36,4 @@ var game;
     game.MapPanel = MapPanel;
     __reflect(MapPanel.prototype, "game.MapPanel");
 })(game || (game = {}));
+//# sourceMappingURL=MapPanel.js.map

@@ -36,3 +36,4 @@ var game;
     game.ChuangDangPanel = ChuangDangPanel;
     __reflect(ChuangDangPanel.prototype, "game.ChuangDangPanel");
 })(game || (game = {}));
+//# sourceMappingURL=ChuangDangPanel.js.map

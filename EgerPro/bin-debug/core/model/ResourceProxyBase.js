@@ -40,3 +40,4 @@ var ResourceProxyBase = (function (_super) {
     return ResourceProxyBase;
 }(puremvc.Proxy));
 __reflect(ResourceProxyBase.prototype, "ResourceProxyBase", ["puremvc.IProxy", "puremvc.INotifier"]);
+//# sourceMappingURL=ResourceProxyBase.js.map

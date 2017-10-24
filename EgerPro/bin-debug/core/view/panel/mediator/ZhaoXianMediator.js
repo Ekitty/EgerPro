@@ -95,3 +95,4 @@ var game;
     game.ZhaoXianMediator = ZhaoXianMediator;
     __reflect(ZhaoXianMediator.prototype, "game.ZhaoXianMediator");
 })(game || (game = {}));
+//# sourceMappingURL=ZhaoXianMediator.js.map

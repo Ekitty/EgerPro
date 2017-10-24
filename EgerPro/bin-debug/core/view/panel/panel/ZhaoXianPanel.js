@@ -36,3 +36,4 @@ var game;
     game.ZhaoXianPanel = ZhaoXianPanel;
     __reflect(ZhaoXianPanel.prototype, "game.ZhaoXianPanel");
 })(game || (game = {}));
+//# sourceMappingURL=ZhaoXianPanel.js.map

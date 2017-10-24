@@ -36,3 +36,4 @@ var game;
     game.RolePanel = RolePanel;
     __reflect(RolePanel.prototype, "game.RolePanel");
 })(game || (game = {}));
+//# sourceMappingURL=RolePanel.js.map

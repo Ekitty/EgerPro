@@ -91,8 +91,9 @@ var LoadingUI = (function (_super) {
         // }
         var rate = Math.round((current / total) * 100);
         this.textField.text = rate + "%";
-        this.pgBar.width = 641 * (current / total);
+        this.pgBar.width = 200 * (current / total);
     };
     return LoadingUI;
 }(eui.UILayer));
 __reflect(LoadingUI.prototype, "LoadingUI");
+//# sourceMappingURL=LoadingUI.js.map

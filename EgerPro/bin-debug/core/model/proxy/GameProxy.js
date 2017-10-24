@@ -48,3 +48,4 @@ var GameProxy = (function (_super) {
     return GameProxy;
 }(ResourceProxyBase));
 __reflect(GameProxy.prototype, "GameProxy");
+//# sourceMappingURL=GameProxy.js.map

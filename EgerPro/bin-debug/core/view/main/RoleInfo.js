@@ -26,3 +26,4 @@ var game;
     game.RoleInfo = RoleInfo;
     __reflect(RoleInfo.prototype, "game.RoleInfo");
 })(game || (game = {}));
+//# sourceMappingURL=RoleInfo.js.map

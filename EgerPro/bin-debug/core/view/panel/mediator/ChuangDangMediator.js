@@ -72,3 +72,4 @@ var game;
     game.ChuangDangMediator = ChuangDangMediator;
     __reflect(ChuangDangMediator.prototype, "game.ChuangDangMediator");
 })(game || (game = {}));
+//# sourceMappingURL=ChuangDangMediator.js.map

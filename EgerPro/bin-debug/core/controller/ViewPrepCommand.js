@@ -39,3 +39,4 @@ var game;
     game.ViewPrepCommand = ViewPrepCommand;
     __reflect(ViewPrepCommand.prototype, "game.ViewPrepCommand", ["puremvc.ICommand", "puremvc.INotifier"]);
 })(game || (game = {}));
+//# sourceMappingURL=ViewPrepCommand.js.map

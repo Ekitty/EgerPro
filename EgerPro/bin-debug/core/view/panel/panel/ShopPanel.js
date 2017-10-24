@@ -36,3 +36,4 @@ var game;
     game.ShopPanel = ShopPanel;
     __reflect(ShopPanel.prototype, "game.ShopPanel");
 })(game || (game = {}));
+//# sourceMappingURL=ShopPanel.js.map

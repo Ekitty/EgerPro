@@ -2579,7 +2579,7 @@ declare namespace egret {
          * @language en_US
          */
         /**
-         * 循环完成
+         * 循环完成。循环最后一次只派发 COMPLETE 事件，不派发 LOOP_COMPLETE 事件。
          * @version Egret 2.4
          * @platform Web,Native
          * @language zh_CN
@@ -6000,8 +6000,8 @@ declare namespace egret {
          * @language zh_CN
          */
         constructor(source: any);
-        static create(type: "arraybuffer", data: ArrayBuffer): BitmapData;
-        static create(type: "base64", data: string): BitmapData;
+        static create(type: "arraybuffer", data: ArrayBuffer, callback?: (bitmapData: BitmapData) => void): BitmapData;
+        static create(type: "base64", data: string, callback?: (bitmapData: BitmapData) => void): BitmapData;
         $dispose(): void;
         private static _displayList;
         static $addDisplayObject(displayObject: DisplayObject, bitmapData: BitmapData | Texture): void;
@@ -9194,7 +9194,7 @@ declare namespace egret {
         audioType?: number;
         screenAdapter?: sys.IScreenAdapter;
         antialias?: boolean;
-        retina?: boolean;
+        canvasScaleFactor?: number;
     }): void;
     /**
      * Refresh the screen display
@@ -10003,10 +10003,6 @@ declare namespace egret.sys {
     }
 }
 declare module egret {
-    /**
-     * 心跳计时器单例
-     */
-    let $ticker: sys.SystemTicker;
     namespace lifecycle {
         type LifecyclePlugin = (context: LifecycleContext) => void;
         /**
@@ -10026,6 +10022,9 @@ declare module egret {
         let onPause: () => void;
         function addLifecycleListener(plugin: LifecyclePlugin): void;
     }
+    /**
+     * 心跳计时器单例
+     */
     let ticker: sys.SystemTicker;
 }
 /**
@@ -10307,6 +10306,10 @@ declare namespace egret.sys {
          * 颜色变换滤镜
          */
         filter: ColorMatrixFilter;
+        /**
+         * 翻转
+         */
+        rotated: boolean;
         /**
          * 绘制一次位图
          */
@@ -14178,36 +14181,60 @@ declare namespace egret {
          */
         protected validateBuffer(len: number): void;
         /**
-         * 获取字符串使用Utf8编码的字节长度
-         *
-         * 参考 https://github.com/dcodeIO/protobuf.js/tree/master/lib/utf8
-         * @static
-         * @param {string} string
-         * @returns
-         *
-         * @memberOf ByteArray
+         * @private
+         * UTF-8 Encoding/Decoding
          */
-        static utf8ByteLength(string: string): number;
+        private encodeUTF8(str);
         /**
-         * 接续utf8字符串
+         * @private
          *
-         * 参考 https://github.com/dcodeIO/protobuf.js/tree/master/lib/utf8
-         * @param {string} string
+         * @param data
          * @returns
-         * @protected
-         * @memberOf ByteArray
          */
-        encodeUTF8(string: string): number[];
+        private decodeUTF8(data);
         /**
-         * 从字节数组中读取utf8字符串
+         * @private
          *
-         * 参考 https://github.com/dcodeIO/protobuf.js/tree/master/lib/utf8
-         * @param {(Uint8Array | ArrayLike<number>)} buffer
-         * @returns
-         *
-         * @memberOf ByteArray
+         * @param code_point
          */
-        decodeUTF8(buffer: Uint8Array | ArrayLike<number>): any;
+        private encoderError(code_point);
+        /**
+         * @private
+         *
+         * @param fatal
+         * @param opt_code_point
+         * @returns
+         */
+        private decoderError(fatal, opt_code_point?);
+        /**
+         * @private
+         */
+        private EOF_byte;
+        /**
+         * @private
+         */
+        private EOF_code_point;
+        /**
+         * @private
+         *
+         * @param a
+         * @param min
+         * @param max
+         */
+        private inRange(a, min, max);
+        /**
+         * @private
+         *
+         * @param n
+         * @param d
+         */
+        private div(n, d);
+        /**
+         * @private
+         *
+         * @param string
+         */
+        private stringToCodePoints(string);
     }
 }
 declare namespace egret {

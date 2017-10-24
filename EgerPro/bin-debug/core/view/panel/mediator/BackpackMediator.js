@@ -74,3 +74,4 @@ var game;
     game.BackpackMediator = BackpackMediator;
     __reflect(BackpackMediator.prototype, "game.BackpackMediator");
 })(game || (game = {}));
+//# sourceMappingURL=BackpackMediator.js.map

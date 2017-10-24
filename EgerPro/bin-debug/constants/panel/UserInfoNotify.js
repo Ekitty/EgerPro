@@ -15,3 +15,4 @@ var UserInfoNotify = (function () {
     return UserInfoNotify;
 }());
 __reflect(UserInfoNotify.prototype, "UserInfoNotify");
+//# sourceMappingURL=UserInfoNotify.js.map

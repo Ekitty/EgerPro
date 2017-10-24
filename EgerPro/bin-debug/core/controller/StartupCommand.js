@@ -34,3 +34,4 @@ var game;
     game.StartupCommand = StartupCommand;
     __reflect(StartupCommand.prototype, "game.StartupCommand");
 })(game || (game = {}));
+//# sourceMappingURL=StartupCommand.js.map

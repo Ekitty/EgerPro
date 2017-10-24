@@ -65,3 +65,4 @@ var Global;
     }
     Global.getNumber = getNumber;
 })(Global || (Global = {}));
+//# sourceMappingURL=Global.js.map

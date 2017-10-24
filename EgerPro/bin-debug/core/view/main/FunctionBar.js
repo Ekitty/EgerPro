@@ -26,3 +26,4 @@ var game;
     game.FunctionBar = FunctionBar;
     __reflect(FunctionBar.prototype, "game.FunctionBar");
 })(game || (game = {}));
+//# sourceMappingURL=FunctionBar.js.map

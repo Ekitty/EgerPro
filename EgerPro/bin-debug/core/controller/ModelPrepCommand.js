@@ -35,3 +35,4 @@ var game;
     game.ModelPrepCommand = ModelPrepCommand;
     __reflect(ModelPrepCommand.prototype, "game.ModelPrepCommand", ["puremvc.ICommand", "puremvc.INotifier"]);
 })(game || (game = {}));
+//# sourceMappingURL=ModelPrepCommand.js.map

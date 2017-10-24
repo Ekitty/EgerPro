@@ -72,3 +72,4 @@ var game;
     game.RoleMediator = RoleMediator;
     __reflect(RoleMediator.prototype, "game.RoleMediator");
 })(game || (game = {}));
+//# sourceMappingURL=RoleMediator.js.map

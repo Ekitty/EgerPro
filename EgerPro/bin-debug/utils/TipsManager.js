@@ -111,3 +111,4 @@ var TipsManager;
     }
     TipsManager.removeTips = removeTips;
 })(TipsManager || (TipsManager = {}));
+//# sourceMappingURL=TipsManager.js.map

@@ -17,3 +17,4 @@ var SysNotify = (function () {
     return SysNotify;
 }());
 __reflect(SysNotify.prototype, "SysNotify");
+//# sourceMappingURL=SysNotify.js.map

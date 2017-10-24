@@ -45,3 +45,4 @@ var PanelNotify = (function () {
     return PanelNotify;
 }());
 __reflect(PanelNotify.prototype, "PanelNotify");
+//# sourceMappingURL=PanelNotify.js.map

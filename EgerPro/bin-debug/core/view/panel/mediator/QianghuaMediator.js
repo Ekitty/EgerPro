@@ -81,3 +81,4 @@ var game;
     game.QianghuaMediator = QianghuaMediator;
     __reflect(QianghuaMediator.prototype, "game.QianghuaMediator");
 })(game || (game = {}));
+//# sourceMappingURL=QianghuaMediator.js.map

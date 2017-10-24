@@ -17,3 +17,4 @@ var GameVO = (function () {
     return GameVO;
 }());
 __reflect(GameVO.prototype, "GameVO");
+//# sourceMappingURL=GameVO.js.map

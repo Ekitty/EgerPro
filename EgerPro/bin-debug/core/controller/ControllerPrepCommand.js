@@ -37,3 +37,4 @@ var game;
     game.ControllerPrepCommand = ControllerPrepCommand;
     __reflect(ControllerPrepCommand.prototype, "game.ControllerPrepCommand", ["puremvc.ICommand", "puremvc.INotifier"]);
 })(game || (game = {}));
+//# sourceMappingURL=ControllerPrepCommand.js.map

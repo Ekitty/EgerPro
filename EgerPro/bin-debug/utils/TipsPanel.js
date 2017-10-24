@@ -65,3 +65,4 @@ var TipsPanel = (function (_super) {
     return TipsPanel;
 }(eui.Component));
 __reflect(TipsPanel.prototype, "TipsPanel");
+//# sourceMappingURL=TipsPanel.js.map

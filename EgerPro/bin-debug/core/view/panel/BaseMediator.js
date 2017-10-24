@@ -106,3 +106,4 @@ var BaseMediator = (function (_super) {
     return BaseMediator;
 }(puremvc.Mediator));
 __reflect(BaseMediator.prototype, "BaseMediator", ["puremvc.IMediator", "puremvc.INotifier"]);
+//# sourceMappingURL=BaseMediator.js.map

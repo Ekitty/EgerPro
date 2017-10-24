@@ -51,3 +51,4 @@ var ProtoAnalyzer = {
         return Promise.resolve();
     }
 };
+//# sourceMappingURL=ProtoAnalyzer.js.map

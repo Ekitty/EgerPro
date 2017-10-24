@@ -36,3 +36,4 @@ var game;
     game.HomeCity = HomeCity;
     __reflect(HomeCity.prototype, "game.HomeCity");
 })(game || (game = {}));
+//# sourceMappingURL=HomeCity.js.map

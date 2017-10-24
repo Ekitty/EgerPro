@@ -36,3 +36,4 @@ var game;
     game.BackpackPanel = BackpackPanel;
     __reflect(BackpackPanel.prototype, "game.BackpackPanel");
 })(game || (game = {}));
+//# sourceMappingURL=BackpackPanel.js.map

@@ -32,3 +32,4 @@ var TemplateProxy = (function (_super) {
     return TemplateProxy;
 }(ResourceProxyBase));
 __reflect(TemplateProxy.prototype, "TemplateProxy");
+//# sourceMappingURL=TemplateProxy.js.map

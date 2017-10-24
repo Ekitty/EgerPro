@@ -41,3 +41,4 @@ var game;
     game.AppFacade = AppFacade;
     __reflect(AppFacade.prototype, "game.AppFacade", ["puremvc.IFacade", "puremvc.INotifier"]);
 })(game || (game = {}));
+//# sourceMappingURL=AppFacade.js.map
